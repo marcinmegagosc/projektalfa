@@ -3,10 +3,12 @@ package pl.gornik;
 public class Person {
     public String name;
     public String surname;
+    public String email;
 
-    public Person(String name, String surname) {
+    public Person(String name, String surname, String email) {
         this.name = name;
         this.surname = surname;
+        this.email = email;
     }
 
     public String getName() {
