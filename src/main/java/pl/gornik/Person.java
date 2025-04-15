@@ -3,10 +3,12 @@ package pl.gornik;
 public class Person {
     public String name;
     public String surname;
+    public int age;
 
-    public Person(String name, String surname) {
+    public Person(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
+        this.age = age;
     }
 
     public String getName() {
@@ -23,6 +25,14 @@ public class Person {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override
